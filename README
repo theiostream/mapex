@@ -1,0 +1,35 @@
+** mapex **
+
+This is a WIP extremely detailed map of the Brazilian Elections. This has the
+potential for becoming a very interesting basis for political analyses as well
+as a kickass visualization.
+
+== INSTRUCTIONS ==
+
+WIP.
+
+== DATA ==
+
+The data/ folder contains non-reproducible datasets that pertain to mapex.
+
+* 2014-secoes.csv: This is a list of all "seções eleitorais" along with their
+  addresses for the 2014 elections. This data (and data for all other recent
+  election years) was provided to me via a LAI request to the TSE.
+
+* Escolas.csv: This is a list of all schools in Brazil as of 2016 along with
+  their addresses. This was obtained in
+  https://groups.google.com/forum/#!topic/qgisbrasil/m3fCa5B1jDk. The geocoded
+  information comes from a proprietary geocoding software. The original school
+  data comes from someone else's LAI request to the Ministry of Education.
+
+* stanford/all.csv: This contains an attempt to geocode all addresses in the
+  seções database through a geocoder provided to me by Stanford University
+  Libraries. It was generated with the help of
+  https://github.com/cengel/ArcGIS_geocoding.
+
+== LICENSE ==
+
+This code is licensed under the GNU General Public License, version 3.
+
+I am not a legal expert on how the data reproduced here is licensed. My
+understanding is that all LAI-obtainable data is public domain.
